@@ -762,8 +762,8 @@ footer {
 
 }
 
-.modal-input:focus .modal-svg {
-  fill: var(--clr-blue-primary);
+.modal-input:focus ~ .modal-svg {
+  fill: #4D5AE5; 
 
 }
 
