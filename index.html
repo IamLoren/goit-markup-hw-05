@@ -469,9 +469,9 @@
 
         <form class="modal-form">
           <div class="form-wrapper">
-            <label for="username" class="modal-username">Name</label>
+            <label for="user-name" class="modal-username label">Name</label>
             <div class="input-wrapper">
-              <input type="text" class="modal-input" id="username" />
+              <input type="text" class="modal-input" id="user-name" name="user-name" />
               <svg class="modal-svg" width="18" height="24">
                 <use href="./images/icons.svg#icon-user"></use>
               </svg>
@@ -479,7 +479,7 @@
           </div>
 
           <div class="form-wrapper">
-            <label for="user-phone" class="modal-username">Phone</label>
+            <label for="user-phone" class="modal-phone label">Phone</label>
             <div class="input-wrapper">
               <input type="text" class="modal-input" id="user-phone" />
               <svg class="modal-svg" width="18" height="24">
@@ -489,7 +489,7 @@
           </div>
 
           <div class="form-wrapper">
-            <label for="user-email" class="modal-username">Email</label>
+            <label for="user-email" class="modal-email label">Email</label>
             <div class="input-wrapper">
               <input type="text" class="modal-input" id="user-email" />
               <svg class="modal-svg" width="18" height="24">
@@ -499,10 +499,11 @@
           </div>
 
           <div class="form-wrapper">
-            <label class="modal-username">Comment</label>
+            <label for="user-comment" class="modal-textarea label">Comment</label>
             <textarea
-              class="modal-input"
+              class="modal-input textarea"
               name="comments"
+              id="user-comment"
               cols="30"
               rows="10"
               placeholder="Text input"
