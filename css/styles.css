@@ -773,6 +773,34 @@ textarea {
 
 .textarea {
   height: 120px; 
+  font-size: 12px; 
+  line-height: 1.17; 
+  letter-spacing: 0.04em;
+  color: rgba(46, 47, 66, 0.4); 
+  padding: 8px 16px; 
+  resize: none; 
+}
+
+.checkbox-wrapper{
+  margin-bottom: 24px; 
+}
+
+.checkbox-label {
+  display: block; 
+  font-size: 12px; 
+  line-height: 1.17; 
+  letter-spacing: 0.04em;
+  color: var(--clr-customer-icon);
+
+}
+
+.custom-box {
+  width: 16px; 
+  height: 100%;
+  display: inline-flex; 
+  justify-content: center;
+  align-items: center;
+  fill: transparent; 
 }
 
 .modal-submit-btn {
