@@ -471,7 +471,12 @@
           <div class="form-wrapper">
             <label for="user-name" class="label">Name</label>
             <div class="input-wrapper">
-              <input type="text" class="modal-input" id="user-name" name="user-name" />
+              <input
+                type="text"
+                class="modal-input"
+                id="user-name"
+                name="user-name"
+              />
               <svg class="modal-svg" width="18" height="24">
                 <use href="./images/icons.svg#icon-user"></use>
               </svg>
@@ -481,7 +486,12 @@
           <div class="form-wrapper">
             <label for="user-phone" class="label">Phone</label>
             <div class="input-wrapper">
-              <input type="text" class="modal-input" id="user-phone" name="user-phone" />
+              <input
+                type="text"
+                class="modal-input"
+                id="user-phone"
+                name="user-phone"
+              />
               <svg class="modal-svg" width="18" height="24">
                 <use href="./images/icons.svg#icon-phone"></use>
               </svg>
@@ -491,7 +501,12 @@
           <div class="form-wrapper">
             <label for="user-email" class="label">Email</label>
             <div class="input-wrapper">
-              <input type="text" class="modal-input" id="user-email" name="user-email"/>
+              <input
+                type="text"
+                class="modal-input"
+                id="user-email"
+                name="user-email"
+              />
               <svg class="modal-svg" width="18" height="24">
                 <use href="./images/icons.svg#icon-mail"></use>
               </svg>
@@ -510,19 +525,31 @@
             ></textarea>
           </div>
 
-          <div class="checkbox-wrapper"> 
-            <input class="original-input visually-hidden" type="checkbox"  id="user-privacy" value="true" name="user-privacy" />
-            <label class="checkbox-label" for="user-privacy" >
-            <span class="custom-box">
-              <svg class="check-icon" width="10" height="8">
-                <use href="./images/icons.svg#icon-check"></use>
-              </svg>
-            </span>
-            I accept the terms and conditions of the
-            <a class="privacy-policy-link" href="">Privacy Policy</a>
-          </label>
+          <div class="checkbox-wrapper">
+            <label class="checkbox-label" for="user-privacy">
+              <input
+                class="original-input visually-hidden"
+                type="checkbox"
+                id="user-privacy"
+                value="true"
+                name="user-privacy"
+              />
+              <span class="custom-box">
+                <svg class="check-icon" width="10" height="8">
+                  <use href="./images/icons.svg#icon-check"></use>
+                </svg>
+              </span>
+              I accept the terms and conditions of the
+              <a
+                class="privacy-policy-link"
+                href=""
+                target="_blank"
+                rel="noopener noreferrer"
+                >Privacy Policy</a
+              >
+            </label>
           </div>
-          
+
           <button class="modal-submit-btn" type="submit">Send</button>
         </form>
       </div>
